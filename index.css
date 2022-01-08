@@ -1,0 +1,32 @@
+.container
+{
+    position: fixed;
+    background-color: rgb(208, 255, 255);
+    color: brown;
+    /* width: 500px; */
+    height: 500px;
+    text-align: center;
+    border: solid  coral;
+    border-width:12px;
+}
+.container2
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: coral;
+    animation-name: oo;
+    animation-duration: 2s;
+    /* animation-timing-function: 2; */
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    
+}
+@keyframes oo {
+    from{
+        margin-top: 300px;
+    }    
+    to {
+        margin-left: 0px;
+    }
+}
